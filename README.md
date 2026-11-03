@@ -8,6 +8,8 @@
 > The original model was an Excel workbook optimised with Solver; this repository rebuilds it as tested Python code
 > (every figure is checked against the workbook) and replaces Solver with a reproducible SLSQP optimiser.
 
+**📓 [Read the full analysis with code and outputs → `notebooks/walkthrough.ipynb`](notebooks/walkthrough.ipynb)** — GitHub renders it directly in the browser: every table and chart, no installation needed.
+
 ---
 
 ## The mandate
