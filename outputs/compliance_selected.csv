@@ -1,0 +1,15 @@
+rule,portfolio,limit,status
+Weights sum to 100%,1.0,1.0,PASS
+No short selling,0.0,0.0,PASS
+Within max weights,-0.04999999999999999,0.0,PASS
+Return >= 7% (5Y),0.10154944236621437,0.07,PASS
+Return >= 7% (10Y),0.10281301787019533,0.07,PASS
+Volatility <= 12% (5Y),0.06771378749418498,0.12,PASS
+Volatility <= 12% (10Y),0.07880535243535004,0.12,PASS
+Cash >= 8%,0.1,0.08,PASS
+Liquid assets >= 50%,0.7,0.5,PASS
+Traditional assets >= 50%,0.5499999999999999,0.5,PASS
+>= 3 alternatives at >= 5%,5.0,3.0,PASS
+"Volatility <= 12% (10Y, desmoothed)",0.08158592791743978,0.12,PASS
+Back-test CVaR 95% >= -10% (10Y),-0.0570857402677753,-0.1,PASS
+Inflation beta >= -1 (10Y),-0.32141751831497356,-1.0,PASS
