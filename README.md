@@ -80,7 +80,7 @@ It passes all 14 mandate rules on both windows (desmoothed volatility 8.2%).
 ## How to run
 
 ```bash
-git clone https://github.com/<your-username>/multi-asset-portfolio-construction.git
+git clone https://github.com/mattiamari02-ops/multi-asset-portfolio-construction.git
 cd multi-asset-portfolio-construction
 pip install -r requirements.txt
 python run_analysis.py
@@ -100,4 +100,4 @@ Data are included only to make the results reproducible for educational purposes
 ## Author
 
 **Mattia Mari** — MSc Applied Data Science for Banking & Finance, Università Cattolica (exchange at RMIT University, Melbourne).
-[LinkedIn](https://www.linkedin.com/in/<your-profile>) · mattiamari02@gmail.com
+[LinkedIn](https://www.linkedin.com/in/mattia-mari02) · mattiamari02@gmail.com
